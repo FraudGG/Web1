@@ -1,0 +1,1993 @@
+.w-layout-grid {
+  grid-row-gap: 16px;
+  grid-column-gap: 16px;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  display: grid;
+}
+
+.home_top {
+  width: 100%;
+  height: 1000px;
+  opacity: 1;
+  text-align: center;
+  object-fit: contain;
+  border-radius: 0;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.header {
+  z-index: 5;
+  width: 100%;
+  height: 70px;
+  opacity: 1;
+  background-color: #0ca7ff;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  position: fixed;
+  top: 0%;
+  bottom: auto;
+  left: 0%;
+  right: 0%;
+}
+
+.social_media_box {
+  width: 20%;
+  height: 70%;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+}
+
+.menu_box {
+  width: auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.wallet_box {
+  width: 30%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.logo {
+  width: 130px;
+  height: auto;
+  max-width: none;
+  object-fit: cover;
+  position: absolute;
+  top: 0%;
+  bottom: auto;
+  left: 0%;
+  right: auto;
+}
+
+.link_box {
+  width: auto;
+  height: 100%;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+}
+
+.body {
+  background-color: #0ca7ff;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.social_media {
+  width: 30px;
+  height: auto;
+  object-fit: contain;
+}
+
+.menu_text {
+  color: #fff;
+  cursor: pointer;
+  flex-direction: row;
+  font-family: Montserrat, sans-serif;
+  font-size: 2vh;
+  font-weight: 600;
+  line-height: 3.5vh;
+  display: flex;
+}
+
+.menu_point {
+  width: 15px;
+  height: 15px;
+  background-color: #fff;
+  border-radius: 1vh;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.wallet_btn {
+  width: 185px;
+  height: 40px;
+  color: #0ca7ff;
+  text-align: center;
+  background-color: #fff;
+  border: 5px solid #fff;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  font-family: Montserrat, sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1rem;
+  text-decoration: none;
+  display: flex;
+}
+
+.wallet_solde_fraud {
+  width: 185px;
+  height: 40px;
+  color: #fff;
+  text-align: center;
+  border: 3px solid #fff;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+  font-family: Montserrat, sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1rem;
+  display: flex;
+}
+
+.logo_background {
+  width: 1400px;
+  max-width: none;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  object-fit: contain;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  display: block;
+  position: absolute;
+}
+
+.title_1 {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 0;
+  font-family: Montserrat, sans-serif;
+  font-size: 6rem;
+  line-height: 6rem;
+  position: static;
+}
+
+.title_2 {
+  color: #fff;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Montserrat, sans-serif;
+  font-size: 8rem;
+  line-height: 8rem;
+  position: static;
+}
+
+.title_box {
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25vh;
+  display: flex;
+  position: absolute;
+}
+
+.about_section {
+  width: 100%;
+  height: 1000px;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+}
+
+.title_box_2 {
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0;
+  display: flex;
+  position: static;
+}
+
+.description_box {
+  width: 50%;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 0;
+  font-family: Montserrat, sans-serif;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2rem;
+}
+
+.description_box_2 {
+  width: 50%;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 100px;
+  font-family: Montserrat, sans-serif;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2rem;
+}
+
+.model_selection {
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+}
+
+.title_model {
+  color: #fff;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 40px;
+  font-family: Montserrat, sans-serif;
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 3rem;
+}
+
+.btn_selection_box {
+  width: 700px;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+}
+
+.model_btn {
+  width: 20vh;
+  height: 5vh;
+  background-color: rgba(0, 0, 0, 0);
+  border: 3px solid #fff;
+  border-radius: 1vh;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0;
+  margin-right: 0;
+  font-family: Montserrat, sans-serif;
+  font-size: 2vh;
+  font-weight: 600;
+  line-height: 2vh;
+  display: flex;
+}
+
+.model_btn:hover {
+  color: #0ca7ff;
+  background-color: #fff;
+}
+
+.bride_dasboard {
+  width: 100%;
+  height: auto;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 140px;
+  display: none;
+}
+
+.title_countdown {
+  color: #fff;
+  font-family: Montserrat, sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 2rem;
+}
+
+.time_countdown {
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat, sans-serif;
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: 5rem;
+  display: block;
+}
+
+.dasboard_box {
+  height: auto;
+  max-height: none;
+  object-fit: fill;
+  flex-direction: column;
+  flex: 0 auto;
+  justify-content: space-between;
+  align-self: auto;
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+.grid_money_dasboard {
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  grid-template-rows: 200px auto;
+  grid-template-columns: 300px 300px 300px;
+  grid-auto-columns: auto;
+  justify-content: center;
+}
+
+.grid_element {
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+}
+
+.grid_element.claim_btn_bottom {
+  justify-content: flex-end;
+}
+
+.dasboard_element {
+  width: 300px;
+  height: 100px;
+  color: #fff;
+  border: 3px solid #fff;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  font-family: Montserrat, sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 2rem;
+  display: flex;
+  position: relative;
+}
+
+.dasboard_title_element {
+  width: 130%;
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat, sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 2rem;
+}
+
+.money_dasboard {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15vh;
+  display: flex;
+  position: relative;
+}
+
+.dasboard_image {
+  width: 1400px;
+  max-width: 150%;
+  margin-top: 7vh;
+  display: block;
+  position: absolute;
+}
+
+.title_dashboard {
+  color: #fff;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: 5vh;
+  font-family: Montserrat, sans-serif;
+  font-size: 6rem;
+  line-height: 6rem;
+  position: static;
+}
+
+.grid_personal_dashboard {
+  grid-column-gap: 50px;
+  grid-row-gap: 50px;
+  grid-template-columns: 300px 300px;
+  grid-auto-columns: auto;
+  justify-content: center;
+}
+
+.dasboard_image_2 {
+  width: 1000px;
+  max-width: none;
+  margin-top: 6vh;
+  display: block;
+  position: absolute;
+}
+
+.animation_text {
+  width: auto;
+  margin-bottom: 40px;
+  display: flex;
+  position: static;
+}
+
+.piece_image {
+  width: auto;
+  height: auto;
+  max-width: none;
+  object-fit: contain;
+}
+
+.briding_system_box {
+  width: 70%;
+  height: 800px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  display: flex;
+}
+
+.title_model-copy {
+  color: #fff;
+  color: #fff;
+  margin-top: 0;
+  margin-bottom: 4vh;
+  font-family: Montserrat, sans-serif;
+  font-size: 3.5vh;
+  font-weight: 600;
+  line-height: 3.5vh;
+}
+
+.title_time_fraud {
+  color: #fff;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Montserrat, sans-serif;
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 3rem;
+}
+
+.time_countdown_2 {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 3vh;
+  font-family: Montserrat, sans-serif;
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: 5rem;
+  display: block;
+}
+
+.title_pure_bribing {
+  color: #fff;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: 0;
+  font-family: Montserrat, sans-serif;
+  font-size: 5.5rem;
+  line-height: 5.5rem;
+  position: static;
+}
+
+.briding_system_claim {
+  height: 100%;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  display: flex;
+}
+
+.image {
+  width: 900px;
+  height: auto;
+  max-width: none;
+  object-fit: cover;
+  position: static;
+}
+
+.grid_briding_dashboard {
+  grid-column-gap: 6vh;
+  grid-row-gap: 4vh;
+  grid-template-columns: 30vh auto;
+  grid-auto-columns: auto;
+}
+
+.grid_briding_system {
+  width: 100%;
+  grid-column-gap: 70px;
+  grid-row-gap: 20px;
+  grid-template-rows: 200px auto;
+  grid-template-columns: 300px 300px;
+  grid-auto-columns: 25px;
+}
+
+.claim_btn {
+  width: 300px;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0);
+  border: 3px solid #fff;
+  border-radius: 1vh;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  font-family: Montserrat, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  display: flex;
+}
+
+.claim_btn:hover {
+  color: #0ca7ff;
+  background-color: #fff;
+}
+
+.deposit_btn {
+  width: 100%;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0);
+  border: 3px solid #fff;
+  border-radius: 1vh;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0%;
+  margin-left: 0;
+  margin-right: 0;
+  font-family: Montserrat, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  display: flex;
+}
+
+.deposit_btn:hover {
+  color: #0ca7ff;
+  background-color: #fff;
+}
+
+.inclined_box {
+  width: 100%;
+  height: 1000px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.inclined_barre_bootom {
+  z-index: 2;
+  width: 100%;
+  margin-top: 80px;
+  position: relative;
+}
+
+.top_and_pure_brinding_box {
+  z-index: 2;
+  width: 100%;
+  height: 700px;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 80px;
+  display: flex;
+  position: relative;
+}
+
+.top_5_box {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+.top_5 {
+  justify-content: space-between;
+  display: flex;
+}
+
+.ranking {
+  margin-right: 5vh;
+}
+
+.top_title {
+  width: 100%;
+  color: #fff;
+  text-align: right;
+  border-bottom: 3px solid #fff;
+  font-family: Montserrat, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 3.5rem;
+}
+
+.position_1 {
+  color: #ffd600;
+  font-family: Montserrat, sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 3.5rem;
+}
+
+.position_1.color_position_2 {
+  color: #e2e2e2;
+}
+
+.position_1.color_position_3 {
+  color: #ffa553;
+}
+
+.position_1.color_position_4_5 {
+  color: #fff;
+}
+
+.amount {
+  width: auto;
+  flex-direction: column;
+  align-items: flex-end;
+  display: flex;
+}
+
+.pure_bribing {
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 270px;
+  display: flex;
+}
+
+.title_system-copy {
+  color: #fff;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: 10vh;
+  font-family: Montserrat, sans-serif;
+  font-size: 6vh;
+  line-height: 6vh;
+  position: static;
+}
+
+.form {
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.form-block {
+  height: 100%;
+}
+
+.submit-button {
+  width: 2vh;
+  height: 2vh;
+  position: relative;
+}
+
+.grid_brinbing_dashboard {
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  grid-template-columns: 45% 45%;
+  grid-auto-columns: auto;
+  grid-auto-flow: row;
+  justify-content: center;
+  justify-items: stretch;
+  margin-top: 15px;
+}
+
+.image-3 {
+  width: 120vh;
+  object-fit: contain;
+  margin-top: 0;
+  position: absolute;
+  bottom: auto;
+}
+
+.inclined_barre_top {
+  width: 100%;
+  margin-top: 0;
+}
+
+.footer {
+  width: 100%;
+  height: 10vh;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+}
+
+.social_media_box_footer {
+  width: 20%;
+  height: 100%;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+}
+
+.footer_text {
+  color: #fff;
+  font-family: Montserrat, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+}
+
+.fraud_dasboard {
+  width: 100%;
+  height: auto;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 140px;
+  display: flex;
+}
+
+.grid_personal_dashboard_fraud {
+  grid-column-gap: 4vh;
+  grid-row-gap: 4vh;
+  grid-template-columns: auto auto;
+  grid-auto-columns: auto;
+}
+
+.dasboard_fraud_bottom {
+  width: 150%;
+  margin-top: 2vh;
+  display: flex;
+}
+
+.title_dashboard_fraud {
+  color: #fff;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: 8vh;
+  font-family: Montserrat, sans-serif;
+  font-size: 6vh;
+  line-height: 6vh;
+  position: static;
+}
+
+.dasboard_box_fraud {
+  z-index: 2;
+  height: 700px;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 0;
+  display: flex;
+  position: relative;
+}
+
+.image-4 {
+  width: auto;
+  height: 900px;
+  max-width: none;
+  margin-bottom: 0;
+  margin-right: 40%;
+  position: absolute;
+}
+
+.tax_haven_box {
+  width: 70%;
+  height: 800px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0;
+  display: flex;
+}
+
+.inclined_barre {
+  width: 100%;
+  margin-top: 0;
+  position: relative;
+}
+
+.form-block-2 {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.form-2 {
+  width: 25vh;
+  height: 7vh;
+  align-items: center;
+  display: flex;
+}
+
+.btn_dashboard {
+  width: 100%;
+  height: 100px;
+  color: #0ca7ff;
+  background-color: #fff;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  font-family: Montserrat, sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 2rem;
+  display: flex;
+}
+
+.modifier_image {
+  width: 2rem;
+  height: 2rem;
+  margin-left: 1vh;
+}
+
+.panama_image {
+  width: 1464px;
+  height: auto;
+  max-width: none;
+  object-fit: contain;
+  margin-left: 105.5vh;
+  position: absolute;
+}
+
+.inclined_barre_fraud {
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+  position: relative;
+}
+
+.tax_haven_with_div {
+  width: 34%;
+}
+
+.image_venezuela {
+  width: 879px;
+  height: auto;
+  max-height: none;
+  max-width: none;
+  margin-right: 50px;
+  position: static;
+}
+
+.model_btn_fraud {
+  width: 300px;
+  height: 80px;
+  color: #0ca7ff;
+  background-color: #fff;
+  border: 3px solid #fff;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0;
+  margin-right: 0;
+  font-family: Montserrat, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  display: flex;
+}
+
+.model_btn_fraud:hover {
+  color: #0ca7ff;
+  background-color: #fff;
+}
+
+.model_btn_bribe {
+  width: 300px;
+  height: 80px;
+  background-color: rgba(0, 0, 0, 0);
+  border: 3px solid #fff;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0;
+  margin-right: 0;
+  font-family: Montserrat, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  display: flex;
+}
+
+.model_btn_bribe:hover {
+  color: #0ca7ff;
+  background-color: #fff;
+}
+
+.menu {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.soulignage {
+  width: 60px;
+  height: 4px;
+  background-color: #fff;
+  margin-left: 0;
+  margin-right: 250px;
+}
+
+.menu_text_faude, .menu_text_bribe {
+  color: #fff;
+  cursor: pointer;
+  flex-direction: row;
+  font-family: Montserrat, sans-serif;
+  font-size: 2vh;
+  font-weight: 600;
+  line-height: 3.5vh;
+  display: flex;
+}
+
+.body-2 {
+  background-color: #0ca7ff;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.social_media_box_public_sale {
+  width: 25%;
+  height: 100%;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+}
+
+.logo_public_sale {
+  width: 30%;
+  height: 100%;
+  justify-content: flex-start;
+  display: flex;
+}
+
+.public_sale {
+  width: 100%;
+  height: 100vh;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  flex-direction: column;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+  display: flex;
+}
+
+.public_sale_image {
+  z-index: 1;
+  width: 80%;
+  object-fit: contain;
+  display: block;
+  position: absolute;
+  top: auto;
+  bottom: 0%;
+  left: auto;
+  right: auto;
+}
+
+.public_sale_info {
+  z-index: 2;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+.public_sale_title {
+  color: #fff;
+  font-family: Montserrat, sans-serif;
+  font-size: 8vh;
+  line-height: 8vh;
+}
+
+.plucic_sale_investement {
+  width: 30vh;
+  height: auto;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  display: flex;
+}
+
+.plucic_sale_investement.claim_btn_bottom {
+  justify-content: flex-end;
+}
+
+.btn_investement {
+  width: 20vh;
+  height: 7vh;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0);
+  border: 3px solid #fff;
+  border-radius: 1vh;
+  justify-content: center;
+  align-items: center;
+  font-family: Montserrat, sans-serif;
+  font-size: 2vh;
+  font-weight: 600;
+  line-height: 2vh;
+  display: flex;
+}
+
+.btn_buy {
+  width: 110px;
+  height: 60px;
+  color: #fff;
+  cursor: pointer;
+  background-color: #ebd453;
+  border: 3px solid #fff;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2vh;
+  font-family: Montserrat, sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 2rem;
+  display: flex;
+}
+
+.progression_barre_box {
+  margin-top: 5vh;
+}
+
+.progressiion_barre_title {
+  color: #fff;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Montserrat, sans-serif;
+  font-size: 3.5vh;
+  font-weight: 600;
+  line-height: 3.5vh;
+}
+
+.progression_value {
+  width: auto;
+  color: #fff;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-family: Montserrat, sans-serif;
+  font-size: 2.5vh;
+  font-weight: 600;
+  line-height: 2.5vh;
+}
+
+.progression_value.slash {
+  margin-left: 1vh;
+  margin-right: 1vh;
+}
+
+.progression_value_box {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.progression_barre_back {
+  width: 850px;
+  height: 20px;
+  border: 4px solid #fff;
+  border-radius: 20px;
+  margin-top: 2vh;
+}
+
+.div-block {
+  width: 50%;
+  height: 100%;
+  background-color: #fff;
+}
+
+.wallet_solde_fraud-copy {
+  width: 10vh;
+  height: 2.5vh;
+  color: #fff;
+  text-align: center;
+  width: 10vh;
+  height: 2.5vh;
+  color: #fff;
+  text-align: center;
+  width: 10vh;
+  height: 2.5vh;
+  color: #fff;
+  text-align: center;
+  border: 3px solid #fff;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  margin-right: 4vh;
+  font-family: Montserrat, sans-serif;
+  font-size: 1vh;
+  font-weight: 600;
+  line-height: 1vh;
+  display: flex;
+}
+
+.wallet_solde_bribe {
+  width: 185px;
+  height: 40px;
+  color: #fff;
+  text-align: center;
+  border: 3px solid #fff;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+  font-family: Montserrat, sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1rem;
+  display: none;
+}
+
+.link-block, .link-block-2 {
+  text-decoration: none;
+}
+
+.title_pure_bribing_2 {
+  color: #fff;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Montserrat, sans-serif;
+  font-size: 5.5rem;
+  line-height: 5.5rem;
+  position: static;
+}
+
+.btn_claim {
+  width: 250px;
+  height: 70px;
+  color: #0ca7ff;
+  background-color: #fff;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  font-family: Montserrat, sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 2rem;
+  display: flex;
+}
+
+.animation_background {
+  width: 2000px;
+  height: 1300px;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-bottom: 250px;
+  display: flex;
+}
+
+.floating_element {
+  width: 300px;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0);
+  position: relative;
+}
+
+.billet_1 {
+  width: 240px;
+  max-width: none;
+}
+
+.billet_2 {
+  width: 300px;
+  max-width: none;
+}
+
+.billet_3 {
+  width: 260px;
+}
+
+.billet_4 {
+  width: 250px;
+  max-width: none;
+}
+
+.billet_5 {
+  width: 260px;
+  max-width: none;
+}
+
+.billet_6 {
+  width: 170px;
+  max-width: none;
+}
+
+.billet_7 {
+  width: 260px;
+  max-width: none;
+}
+
+.billet_8 {
+  width: 200px;
+  max-width: none;
+}
+
+.billet_9 {
+  width: 180px;
+  max-width: none;
+}
+
+.billet_10 {
+  width: 210px;
+  max-width: none;
+}
+
+.billet_11 {
+  width: 350px;
+  max-width: none;
+}
+
+.separation {
+  width: 800px;
+}
+
+.tax_haven_with_div-_2 {
+  width: 50%;
+}
+
+.text_top_title {
+  color: #0ca7ff;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #fff;
+  text-transform: none;
+  white-space: normal;
+  font-family: Montserrat, sans-serif;
+  font-size: 5rem;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 5rem;
+}
+
+.image-5 {
+  width: 350px;
+  max-width: none;
+  margin-top: 700px;
+  margin-bottom: 0;
+  margin-left: 1200px;
+  position: absolute;
+  top: auto;
+  bottom: auto;
+  left: auto;
+  right: auto;
+}
+
+.billett_pile {
+  width: 400px;
+  max-width: none;
+  margin: 560px 300px 0 0;
+  position: absolute;
+  top: auto;
+  bottom: auto;
+  left: auto;
+  right: auto;
+}
+
+.refresh_btn {
+  margin-bottom: 0;
+  margin-left: 1000px;
+  position: absolute;
+}
+
+.title_dasboard_box {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.animation_background_absolute {
+  width: 100%;
+  height: 700px;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-bottom: 0;
+  display: flex;
+  position: absolute;
+  top: auto;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+}
+
+.menu_btn {
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+.wallet_btn_public_sale {
+  width: 185px;
+  height: 40px;
+  color: #0ca7ff;
+  text-align: center;
+  background-color: #fff;
+  border: 5px solid #fff;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  font-family: Montserrat, sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1rem;
+  text-decoration: none;
+  display: flex;
+}
+
+.wallet_box_public-sale {
+  width: 30%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+@media screen and (max-width: 991px) {
+  .header {
+    justify-content: space-around;
+  }
+
+  .social_media_box {
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    margin-top: 220px;
+    margin-right: 5px;
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: auto;
+    right: 0%;
+  }
+
+  .menu_box {
+    width: auto;
+  }
+
+  .wallet_box {
+    width: auto;
+    height: 100px;
+    flex-direction: column;
+    margin-top: 60px;
+    margin-right: 5px;
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: auto;
+    right: 0%;
+  }
+
+  .logo {
+    position: static;
+  }
+
+  .link_box {
+    flex-direction: column;
+  }
+
+  .wallet_btn {
+    margin-top: 5px;
+  }
+
+  .wallet_solde_fraud {
+    background-color: #0ca7ff;
+    margin-right: 0;
+  }
+
+  .bride_dasboard {
+    display: none;
+  }
+
+  .briding_system_box {
+    flex-direction: column;
+  }
+
+  .image {
+    display: none;
+  }
+
+  .grid_briding_system {
+    grid-column-gap: 20px;
+    grid-template-columns: 50% 50%;
+  }
+
+  .deposit_btn {
+    margin-top: 30px;
+  }
+
+  .inclined_box {
+    height: auto;
+  }
+
+  .top_and_pure_brinding_box {
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pure_bribing {
+    margin-top: 25px;
+    margin-left: 0;
+  }
+
+  .image-4, .panama_image, .tax_haven_with_div, .image_venezuela {
+    display: none;
+  }
+
+  .menu {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .soulignage {
+    height: 2px;
+    margin-right: 180px;
+  }
+
+  .menu_text_faude, .menu_text_bribe {
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+
+  .progression_barre_back {
+    width: 500px;
+  }
+
+  .wallet_solde_bribe {
+    background-color: #0ca7ff;
+  }
+
+  .animation_background {
+    display: flex;
+  }
+
+  .tax_haven_with_div-_2, .image-5, .billett_pile {
+    display: none;
+  }
+
+  .animation_background_absolute {
+    display: flex;
+  }
+
+  .image-6 {
+    width: 70px;
+    height: 70px;
+  }
+
+  .menu_btn {
+    width: auto;
+    justify-content: space-between;
+    display: flex;
+  }
+
+  .wallet_btn_public_sale {
+    margin-top: 5px;
+  }
+
+  .wallet_box_public-sale {
+    width: auto;
+    height: 100px;
+    flex-direction: column;
+    margin-top: 0;
+    margin-right: 0;
+    position: static;
+    top: 0%;
+    bottom: 0%;
+    left: auto;
+    right: 0%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .wallet_box {
+    align-items: flex-end;
+  }
+
+  .bride_dasboard {
+    display: none;
+  }
+
+  .dasboard_title_element {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+  }
+
+  .grid_briding_system {
+    grid-column-gap: 20px;
+    grid-template-rows: auto auto;
+    grid-template-columns: 300px 300px;
+    justify-content: center;
+  }
+
+  .footer_text {
+    font-size: 1rem;
+  }
+
+  .dasboard_fraud_bottom {
+    width: auto;
+    margin-top: 10px;
+  }
+
+  .soulignage {
+    display: flex;
+  }
+
+  .menu_text_faude, .menu_text_bribe, .public_sale_title {
+    text-align: center;
+  }
+
+  .image-6 {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .home_top {
+    height: 800px;
+    overflow: hidden;
+  }
+
+  .header {
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    overflow: visible;
+  }
+
+  .social_media_box {
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    margin-top: 230px;
+    margin-left: 0;
+    margin-right: 5px;
+    padding-bottom: 0;
+    display: flex;
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: auto;
+    right: 0%;
+  }
+
+  .menu_box {
+    width: auto;
+    justify-content: center;
+    align-items: stretch;
+    margin-right: 0;
+  }
+
+  .wallet_box {
+    width: 100px;
+    height: 100px;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 70px;
+    margin-right: 5px;
+    display: flex;
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: auto;
+    right: 0%;
+  }
+
+  .logo {
+    width: 100px;
+    position: static;
+  }
+
+  .link_box {
+    width: auto;
+    height: auto;
+    flex-direction: column;
+  }
+
+  .body {
+    overflow: auto;
+  }
+
+  .menu_point {
+    width: 10px;
+    height: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .wallet_btn {
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    font-size: .5rem;
+    line-height: .5rem;
+  }
+
+  .wallet_solde_fraud {
+    width: 100%;
+    background-color: #0ca7ff;
+    margin-right: 0;
+  }
+
+  .logo_background {
+    width: 600px;
+  }
+
+  .title_1 {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+
+  .title_2 {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+
+  .title_box {
+    margin-bottom: 0;
+  }
+
+  .about_section {
+    overflow: hidden;
+  }
+
+  .description_box, .description_box_2 {
+    width: 80%;
+    font-size: 5vw;
+  }
+
+  .title_model {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+  }
+
+  .btn_selection_box {
+    width: 400px;
+  }
+
+  .bride_dasboard {
+    display: none;
+    overflow: hidden;
+  }
+
+  .title_countdown {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  .time_countdown {
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+
+  .dasboard_box {
+    width: 100%;
+  }
+
+  .grid_money_dasboard {
+    grid-column-gap: 10px;
+    grid-template-rows: 150px 150px 150px;
+    grid-template-columns: 200px 200px;
+  }
+
+  .grid_element, .dasboard_element {
+    width: 200px;
+  }
+
+  .dasboard_title_element {
+    font-size: 4vw;
+  }
+
+  .money_dasboard {
+    width: 100vw;
+  }
+
+  .dasboard_image {
+    width: 100%;
+  }
+
+  .title_dashboard {
+    font-size: 3.5rem;
+    line-height: 4rem;
+  }
+
+  .grid_personal_dashboard {
+    grid-column-gap: 10px;
+    grid-row-gap: 20px;
+    grid-template-rows: 150px 150px;
+    grid-template-columns: 200px 200px;
+  }
+
+  .dasboard_image_2 {
+    width: 500px;
+    margin-top: 0;
+  }
+
+  .animation_text {
+    overflow: visible;
+  }
+
+  .briding_system_box {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .briding_system_claim {
+    height: auto;
+    margin-top: 19px;
+  }
+
+  .image {
+    display: none;
+  }
+
+  .grid_briding_system {
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    grid-template-rows: 150px 150px;
+    grid-template-columns: 200px 200px;
+    grid-auto-columns: 50%;
+    justify-content: center;
+    justify-items: stretch;
+    margin-bottom: 19px;
+  }
+
+  .inclined_box {
+    height: auto;
+  }
+
+  .inclined_barre_bootom {
+    width: 110%;
+    max-width: 110%;
+  }
+
+  .top_and_pure_brinding_box {
+    height: auto;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .pure_bribing {
+    height: 700px;
+    margin-left: 0;
+  }
+
+  .grid_brinbing_dashboard {
+    grid-column-gap: 10px;
+    grid-template-columns: 200px 200px;
+  }
+
+  .inclined_barre_top {
+    width: 110%;
+    max-width: 110%;
+  }
+
+  .footer {
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  .social_media_box_footer {
+    width: 100%;
+    height: auto;
+  }
+
+  .footer_text {
+    font-size: 1vh;
+    line-height: 1vh;
+  }
+
+  .fraud_dasboard {
+    overflow: hidden;
+  }
+
+  .dasboard_fraud_bottom {
+    justify-content: center;
+  }
+
+  .image-4 {
+    display: none;
+  }
+
+  .inclined_barre {
+    width: 110%;
+    max-width: 110%;
+  }
+
+  .btn_dashboard {
+    width: 100%;
+  }
+
+  .panama_image {
+    display: none;
+  }
+
+  .inclined_barre_fraud {
+    width: 110%;
+    max-width: 110%;
+  }
+
+  .image_venezuela {
+    display: none;
+  }
+
+  .model_btn_fraud, .model_btn_bribe {
+    width: 170px;
+    height: 60px;
+  }
+
+  .menu {
+    width: auto;
+    justify-content: space-between;
+  }
+
+  .soulignage {
+    width: 40px;
+    margin-left: 33px;
+    margin-right: 0;
+    display: flex;
+  }
+
+  .menu_text_faude {
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+
+  .menu_text_bribe {
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+
+  .social_media_box_public_sale {
+    width: 50%;
+    align-items: flex-end;
+  }
+
+  .logo_public_sale {
+    width: auto;
+  }
+
+  .public_sale {
+    margin-top: 5vh;
+  }
+
+  .public_sale_image {
+    width: 100%;
+    max-width: none;
+    top: 75%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+  }
+
+  .public_sale_info {
+    width: 100%;
+  }
+
+  .public_sale_title {
+    text-align: center;
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+
+  .progressiion_barre_title {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+  }
+
+  .progression_value {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+
+  .progression_barre_back {
+    width: 100%;
+  }
+
+  .div-block-2 {
+    width: 2vh;
+    height: 2vh;
+    background-color: #fff;
+  }
+
+  .solde_unit {
+    font-size: .7rem;
+  }
+
+  .wallet_solde_fraud-copy {
+    width: 100%;
+    width: 100%;
+    width: 100%;
+  }
+
+  .wallet_solde_bribe {
+    width: 100%;
+    background-color: #0ca7ff;
+    display: none;
+  }
+
+  .text-block, .text-block-2, .text-block-3, .text-block-4, .text-block-5, .text-block-6 {
+    font-size: 1.5rem;
+  }
+
+  .btn_claim {
+    width: 80%;
+  }
+
+  .animation_background, .image-5 {
+    display: none;
+  }
+
+  .animation_background_absolute {
+    display: flex;
+    overflow: hidden;
+  }
+
+  .image-6 {
+    width: 40px;
+    max-width: none;
+  }
+
+  .menu_btn {
+    width: auto;
+    justify-content: space-between;
+    display: flex;
+  }
+
+  .html-embed {
+    overflow: visible;
+  }
+
+  .wallet_btn_public_sale {
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    font-size: .5rem;
+    line-height: .5rem;
+    position: static;
+  }
+
+  .wallet_box_public-sale {
+    width: 100px;
+    height: 100px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+    margin-right: 0;
+    display: flex;
+    position: static;
+    top: 0%;
+    bottom: 0%;
+    left: auto;
+    right: 0%;
+  }
+}
+
+#w-node-ef0022bf-eb31-d0ab-ea91-8e2c3d7f72fb-cb9c38e1, #w-node-_8cec176f-2114-d1b2-d05e-5d675b0e3427-cb9c38e1, #w-node-f47eace3-0da6-8566-f10f-cae2bda2d86e-cb9c38e1, #w-node-_45e755be-5d14-bf40-75c6-f0d18d3b3c9e-cb9c38e1, #w-node-af4c93c4-a88e-3645-75ca-7acccc96072f-cb9c38e1, #w-node-_4ee0187d-982f-9bcc-2168-64f779d38f4a-cb9c38e1, #w-node-e6fd85f1-a3c7-0f29-8080-b5e56c4556df-cb9c38e1, #w-node-e6fd85f1-a3c7-0f29-8080-b5e56c4556e4-cb9c38e1, #w-node-e6fd85f1-a3c7-0f29-8080-b5e56c4556e9-cb9c38e1, #w-node-e6fd85f1-a3c7-0f29-8080-b5e56c4556ee-cb9c38e1, #w-node-_07c37fc6-d616-5286-d1d4-4825ae289f16-cb9c38e1, #w-node-_07c37fc6-d616-5286-d1d4-4825ae289f1b-cb9c38e1, #w-node-_07c37fc6-d616-5286-d1d4-4825ae289f20-cb9c38e1, #w-node-_07c37fc6-d616-5286-d1d4-4825ae289f25-cb9c38e1, #w-node-_2b3ed738-2f5c-1a62-a585-6349067b9ef1-cb9c38e1, #w-node-_2b3ed738-2f5c-1a62-a585-6349067b9ef6-cb9c38e1, #w-node-_2b3ed738-2f5c-1a62-a585-6349067b9efb-cb9c38e1, #w-node-_2b3ed738-2f5c-1a62-a585-6349067b9f00-cb9c38e1, #w-node-_68c0b238-a6b7-8034-72de-8ce15cc8b34f-cb9c38e1, #w-node-_68c0b238-a6b7-8034-72de-8ce15cc8b354-cb9c38e1, #w-node-_68c0b238-a6b7-8034-72de-8ce15cc8b359-cb9c38e1, #w-node-_68c0b238-a6b7-8034-72de-8ce15cc8b35e-cb9c38e1, #w-node-_68c0b238-a6b7-8034-72de-8ce15cc8b363-cb9c38e1, #w-node-_68c0b238-a6b7-8034-72de-8ce15cc8b368-cb9c38e1, #w-node-_68c0b238-a6b7-8034-72de-8ce15cc8b37b-cb9c38e1, #w-node-_896b2e4d-9d32-dd98-ca8b-80cdb11a7d0f-cb9c38e1, #w-node-_68c0b238-a6b7-8034-72de-8ce15cc8b385-cb9c38e1, #w-node-_68c0b238-a6b7-8034-72de-8ce15cc8b397-cb9c38e1, #w-node-_68c0b238-a6b7-8034-72de-8ce15cc8b39c-cb9c38e1, #w-node-_68c0b238-a6b7-8034-72de-8ce15cc8b3a1-cb9c38e1, #w-node-_68c0b238-a6b7-8034-72de-8ce15cc8b3a6-cb9c38e1, #w-node-_478485e2-0fbe-7b8a-9b03-5970480aac31-cb9c38e1, #w-node-_478485e2-0fbe-7b8a-9b03-5970480aac36-cb9c38e1, #w-node-_478485e2-0fbe-7b8a-9b03-5970480aac3b-cb9c38e1, #w-node-_478485e2-0fbe-7b8a-9b03-5970480aac40-cb9c38e1, #w-node-_6e4c0635-f063-b038-69ae-fa26d84971e3-cb9c38e1, #w-node-_6e4c0635-f063-b038-69ae-fa26d84971e8-cb9c38e1, #w-node-a4e37b52-f48e-9f17-2a72-7436468d26d1-cb9c38e1, #w-node-_9d0b7473-93a1-f65b-8a84-1e9a46aebd1e-cb9c38e1, #w-node-_6e4c0635-f063-b038-69ae-fa26d84971ed-cb9c38e1, #w-node-_6e4c0635-f063-b038-69ae-fa26d84971f2-cb9c38e1 {
+  grid-area: span 1 / span 1 / span 1 / span 1;
+}
